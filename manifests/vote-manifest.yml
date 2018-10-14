@@ -1,7 +1,7 @@
 kind: ExternalService
 name: vote
 spec:
-  image: fandoghpaas/vote:${VERSION}
+  image: vote:1.0
   image_pull_policy: Always
   port: 80
   resources:
